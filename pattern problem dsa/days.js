@@ -7,6 +7,7 @@ function lifeInWeeks(age) {
             console.log("Please enter a valid age between 1 and 90.");
             return;
         }
+        // var age = (90 - age)
     
         // Calculate the number of days, weeks, and months left to live.
         var days = (90 - age) * 365;
@@ -19,3 +20,5 @@ function lifeInWeeks(age) {
     /*************Don't change the code below**********/
     }
     
+
+    lifeInWeeks(20);
